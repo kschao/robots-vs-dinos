@@ -1,0 +1,50 @@
+#7 commits- descriptive message
+- robot, dinosuar, fleet, heard, weapon, battlefield
+# Robot needs a name
+
+class robot_name:
+def __init__ (self):
+self.robot_name = "Primus"
+
+
+#Robot Primus needs health
+robot_health = 100
+
+class robot_primus:
+    def __init__(self, name, strength, attack, health):
+        self.name = name
+        self.strength = strength
+        self.attack = attack
+        self.health = health
+
+    def attack_enemy(self):
+        time.sleep(1)
+        print("Time to attack! you want to use weapon (laser, machine gun, or freeze gun?)")
+        print("")
+        answer = input()
+
+    if answer == "laser":
+        self.health = self.health()
+        self.health = int(self.health)
+    elif answer == "machine gun":
+        self.health = self.healthself()
+        self.health = int(self.health)
+    elif answer == "freeze gun":  
+        self.health = self.health()
+        self.health = int(self.healh) 
+    else:
+        print("oooh nooo!")
+
+    time.sleep(1)
+
+    print (self.name + "health is now at: " + str(int(self.health)))
+    print ("")
+
+    return int(self.health)
+
+        
+
+
+
+
+
